@@ -1,10 +1,9 @@
 version: '3.3'
-
 services:
   snake:
-    image: 'litattj/lab-02:latest'
+    image: 'amalan06/lab2:lts'
     environment:
-      - PORT=3000
+      - "PORT:3000"
     ports:
       - "80:3000"
     volumes:
